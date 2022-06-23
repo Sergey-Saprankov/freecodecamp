@@ -14,7 +14,7 @@ const getIndexToIns = (arr, num) => {
       return i + 1;
     }
   }
-  return arr.length - 1;
+  return arr.length;
 }
 
 console.log(getIndexToIns([2, 5, 10], 15));
